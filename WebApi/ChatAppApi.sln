@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatAppApi", "ChatAppApi.csproj", "{54642778-8268-4537-BCF9-50E8A439C021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatAppApi", "ChatAppApi.csproj", "{54642778-8268-4537-BCF9-50E8A439C021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{226EA944-8299-4967-9CC8-20D8BE0D0C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessEF", "..\DataAccessEF\DataAccessEF.csproj", "{702D7E12-0E8A-4BBD-81F0-33351933D947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{54642778-8268-4537-BCF9-50E8A439C021}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54642778-8268-4537-BCF9-50E8A439C021}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54642778-8268-4537-BCF9-50E8A439C021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226EA944-8299-4967-9CC8-20D8BE0D0C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226EA944-8299-4967-9CC8-20D8BE0D0C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226EA944-8299-4967-9CC8-20D8BE0D0C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226EA944-8299-4967-9CC8-20D8BE0D0C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702D7E12-0E8A-4BBD-81F0-33351933D947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702D7E12-0E8A-4BBD-81F0-33351933D947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702D7E12-0E8A-4BBD-81F0-33351933D947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702D7E12-0E8A-4BBD-81F0-33351933D947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
